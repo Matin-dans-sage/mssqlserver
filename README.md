@@ -5,8 +5,12 @@ git clone https://github.com/Matin-dans-sage/mssqlserver.git
 
 cd ./mssqlserver
 
-sh ./mssql_make.sh
+vi ./docker-compose.yml
+(line 17) Change for SA_PASSWORD: MSSQLPASSWORD
+Change the value of MSSQLPASSWORD to what you want.
 
+
+sh ./mssql_make.sh
 (y : install / n : cancel)
 
 ```
