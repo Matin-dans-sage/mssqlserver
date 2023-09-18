@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  server:
+    container_name: mssql_server
+    restart: always
+    build: .
+    user: root
+
+    hostname: sql1
+    ports:
+      - 1433:1433
+    volumes:
+      - ~/sql1data:/var/opt/mssql
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: MSSQLPASSWORD
