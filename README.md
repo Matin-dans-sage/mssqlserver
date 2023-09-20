@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/MSSQL%20SERVER-CC2927?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=Python&logoColor=white">
+<img src="https://img.shields.io/badge/MSSQL%20SERVER-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=Python&logoColor=white">
 
 
 ## Installation
